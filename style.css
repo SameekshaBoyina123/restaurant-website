@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #fff8f0;
+}
+
+header {
+  background: #c0392b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  background: #f1c40f;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+}
